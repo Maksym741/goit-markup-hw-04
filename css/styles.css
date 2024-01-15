@@ -318,12 +318,13 @@ margin-bottom: 8px;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: ;
+  justify-content: center;
   content: "";
   border-radius: 50%;
   background: #4D5AE5;
   width: 100%;
   height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .svg-team-list:hover,
@@ -482,14 +483,15 @@ margin-bottom: 16px;
   background: #4D5AE5;
   width: 100%;
   height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
   
 .svg-footer-list:hover:,
 .svg-footer-list:focus:{
-  background: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list-icon{
