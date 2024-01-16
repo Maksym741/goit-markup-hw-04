@@ -145,7 +145,7 @@ img {
 /*?-------------------Hero-------------------*/
 .first-page {
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),  url(https://ru.freepik.com/free-photo/lake-surrounded-with-mountain_7895370.htm#page=13&query=%D0%BA%D1%80%D0%B0%D[…]0300a63-5b9e-4ca3-b9df-d14338e81214);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),  url(/images/office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
