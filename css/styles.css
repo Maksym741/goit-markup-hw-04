@@ -87,14 +87,17 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404BBF;
   padding: 24px 0;
   display: block;
-  position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link::after{
+.curent{
+  color: #404BBF;
+  position: relative;
+}
+
+.curent::after{
   display: block;
   border-radius: 2px;
   background: #404BBF;
@@ -104,12 +107,10 @@ img {
   position: absolute;
   left: 0px;
   bottom: -1px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover {
-  color: #404bbf;
-}
-
+.link:hover,
 .link:focus {
   color: #404bbf;
 }
@@ -365,8 +366,8 @@ fill: #F4F4FD;
 }
 
 .img-overlay{
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 
 .overlay{
@@ -386,7 +387,7 @@ fill: #F4F4FD;
   z-index: 1;
 }
 
-.img-overlay:hover .overlay{
+.item-portfolio:hover .overlay{
   transform: translateY(0%);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
